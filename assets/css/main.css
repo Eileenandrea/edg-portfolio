@@ -4686,4 +4686,30 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}	
+	.profile-pic img{
+		height: 250px;
+		width: 250px;
+		border-radius: 50%;
+
+	}
+	.project{
+		display: flex;
+		flex-direction: row;
+	}
+	.project-details{
+		width: 40%;
+		height: auto;
+		padding: 5px 35px 5px 5px;
+	}	
+
+
+	.project-image{
+		width: 55%;
+		height: auto;
+		margin-left: auto;
+	}	
+	.project-image img{
+		width: 100%;
+		height: auto;
 	}

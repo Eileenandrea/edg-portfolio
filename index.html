@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Massively by HTML5 UP</title>
+		<title>My Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,10 +19,12 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>This is<br />
-						Massively</h1>
-						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
+						<div class="profile-pic">
+							<img src="./images/eileen-deguzman.jpg" alt="eileen-deguzman">
+						</div>
+						
+						<h1>Eileen De Guzman</h1>
+						<p>Hi My Name is Eileen Andrea V. De Guzman a <span>Web Developer</span></p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -30,15 +32,14 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Massively</a>
+						<a href="index.html" class="logo">My Portfolio</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">This is Massively</a></li>
-							<li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
+							<li class="active"><a href="index.html">Projects</a></li>
+							
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -54,160 +55,127 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<h2><a href="#">Eileen Andrea V. De Guzman</a></h2>
+									<p>A junior web developer who's in love with 💻 programming and enjoys learning about new technologies. 🚀
+									<br>
+										A license Electronics Engineer.
+										<br>
+										A Full-stack Web Development student at Avion School ✈️</p>
 								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
+									<li><a href="https://app.luminpdf.com/viewer/60ef35e7da166a00154e4f7b" class="button large">Resume</a></li>
 								</ul>
 							</article>
+							<section class="featured-projects">
 
+								<header class="major">
+									<h1>Featured Projects</h1>
+								</header>
+								
+								<div class="project">
+									<div class="project-details">
+										<h2>Stockjobber</h2>
+										<p>A Stock Trading App that uses the IEX gem and allows users to signup as Buyer or Broker.
+											Developed a feature that will enable brokers to choose from the list of stocks that they will offer for buyers to buy for a certain brokerage fee.</p>
+											<ul class="actions">
+												<li><a href="https://stockjobber-stock-trading-app.herokuapp.com/" class="button primary">See Live</a></li>
+												<li><a href="https://github.com/Eileenandrea/stockjobber-stock-app" class="button">Source Code</a></li>
+											</ul>
+									</div>
+
+									<div class="project-image">
+										<img src="images/stockjobber-stock-app.PNG" alt="stockjobber-stock-app">
+									</div>
+								</div>
+								<div class="project">
+									<div class="project-details">
+										<h2>Everyday Journal App</h2>
+										<p>A Ruby on Rails task management app that allows the user to organize tasks easily.
+											Developed a feature for users to create custom categories and add their tasks. Added Pomodoro Timer on each Task show page so that user can stay focus while working on thier task </p>
+											<ul class="actions">
+												<li><a href="https://edg-prod-everyday.herokuapp.com/" class="button primary">See Live</a></li>
+												<li><a href="https://github.com/Eileenandrea/Everyday" class="button">Source Code</a></li>
+											</ul>
+									</div>
+									<div class="project-image">
+										<img src="images/Everyday Journal app.PNG" alt="Everyday-journal-app">
+									</div>
+								</div>
+								<div class="project">
+									<div class="project-details">
+										<h2>WebDevBlog Blog-App</h2>
+										<p>A Ruby on Rails Blog Application that Allow user to View all Blogs, Create, Edit and Delete post. 
+											Uses Action text for Blog Body and add upload image functionality that is setup in aws.
+											Develop a feature wherein user can add categories tag to their blog post. 
+										</p>
+											<ul class="actions">
+												<li><a href="https://webdevblog-edg.herokuapp.com/" class="button primary">See Live</a></li>
+												<li><a href="https://github.com/Eileenandrea/WebDev_blog_site" class="button">Source Code</a></li>
+											</ul>
+									</div>
+									<div class="project-image">
+										<img src="images/WebdevBlog.PNG" alt="WebDevBlog-app">
+									</div>
+								</div>
+								<div class="project">
+									<div class="project-details">
+										<h2>DogPaws</h2>
+										<p>A Javascript Application that allows users to search for Specific Dog breeds and See All Dogs Available for Adoption.
+											Integrated with Dog APi to allow user to search for a specific dog breeds and uses petfinder API to search for all dogs available for adoption.
+											Uses MVC code structure using Vanila Js code 
+
+										</p>
+											<ul class="actions">
+												<li><a href="https://edg-dogpaws.netlify.app/#ADOPT" class="button primary">See Live</a></li>
+												<li><a href="https://github.com/Eileenandrea/batch6-activities-remastered/tree/main/DogPaws" class="button">Source Code</a></li>
+											</ul>
+									</div>
+									<div class="project-image">
+										<img src="images/DogPaws.PNG" alt="DogPaws">
+									</div>
+								</div>
+								<div class="project">
+									<div class="project-details">
+										<h2>ChessGame</h2>
+										<p>A Javascript Application that allows user to have a two Player Chess Match.
+											Implements all rules and regulation of a chess game including, Castling, En Passant, Pawn Promotion and Checkmate rules.
+											Add Game timer of 30 minutes each player to simulate a real chess match
+										</p> 
+
+										</p>
+											<ul class="actions">
+												<li><a href="https://edg-chess.netlify.app/" class="button primary">See Live</a></li>
+												<li><a href="https://github.com/Eileenandrea/ChessGame" class="button">Source Code</a></li>
+											</ul>
+									</div>
+									<div class="project-image">
+										<img src="images/chessGame.PNG" alt="chessGame">
+									</div>
+								</div>
+							</section>
 						<!-- Posts -->
+						<header class="major">
+							<h1>Other Projects</h1>
+						</header>
+						
 							<section class="posts">
+
 								<article>
 									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
+										<span class="date">January 19,2021</span>
+										<h2><a href="https://eileenandrea.github.io/batch6-activities/Day%201-HTMLBestPractices/">HTML Best Practices<br />
+										</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="images/Project1.PNG" alt="" /></a>
+									<p>HTML Best Practice</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
+								
 							</section>
 
 						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
 
 				<!-- Copyright -->
 					<div id="copyright">
